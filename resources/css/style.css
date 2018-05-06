@@ -110,3 +110,63 @@ header .mobile {
   text-align: center;
   font-size: 1.5rem;
 }
+
+.article-section {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: stretch;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.main-article img {
+  width: 100%;
+  /*Prevents images from stretching*/
+ align-self: center;
+}
+
+.main-text-accompany h1 {
+  margin: 32px 0 24px 0;
+}
+
+.side-panel {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  border-left: 1px solid Gainsboro;
+}
+
+.side-article {
+  display: flex;
+  padding: 16px;
+}
+
+.side-article img {
+  width: 35%;
+  margin-right: 16px;
+  /*Prevents images from stretching*/
+  align-self: center;
+}
+
+.side-text-accompany {
+  width: 65%;
+  /*Vertical align text within flexbox*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-text-accompany h1 {
+  font-size: 1.5rem;
+}
+
+.side-text-accompany p {
+  padding: 8px 0px;
+}
