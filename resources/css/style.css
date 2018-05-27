@@ -1,5 +1,6 @@
 body {
-  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
 }
 
 h1 {
@@ -7,7 +8,33 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+
+}
+
+a {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Header section*/
+
+.grey {
+  color: gray;
+}
+
+.black {
+  color: black;
 }
 
 .logo {
@@ -46,7 +73,7 @@ nav li {
 }
 
 nav a {
-  color: #000000;
+  color: #4a4a4a;
 }
 
 header .mobile {
@@ -80,9 +107,11 @@ header .mobile {
 
 }
 
+/*Banner section*/
+
 .banner-section {
   width: 100%;
-  background-color: Gainsboro;
+  background-color: #e8e8e8;
   margin-top: 64px;
   display: flex;
   align-items: center;
@@ -104,12 +133,14 @@ header .mobile {
 .banner-adjacent a {
   display: block;
   width: 60%;
-  background-color: DimGrey;
+  background-color: #4a4a4a;
   color: white;
   padding: 8px 0px;
   text-align: center;
   font-size: 1.5rem;
 }
+
+/*Article section*/
 
 .article-section {
   width: 100%;
@@ -131,8 +162,12 @@ header .mobile {
  align-self: center;
 }
 
-.main-text-accompany h1 {
+.main-text-accompany h2 {
   margin: 32px 0 24px 0;
+}
+
+.contributor {
+  font-size: 0.8rem;
 }
 
 .side-panel {
@@ -143,7 +178,7 @@ header .mobile {
 }
 
 .side-panel-border {
-  border-left: 1px solid Gainsboro;
+  border-left: 1px solid #e8e8e8;
 }
 
 .side-article {
@@ -168,6 +203,7 @@ header .mobile {
 
 .side-text-accompany h1 {
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .side-text-accompany p {
@@ -178,13 +214,13 @@ header .mobile {
 
 .features-title {
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: #e8e8e8;
   display: flex;
   justify-content: center;
 }
 
 .features-title h1 {
-    padding: 32px 0 16px 0;
+  padding: 32px 0 16px 0;
 }
 
 #features-section {
@@ -192,7 +228,7 @@ header .mobile {
   flex-wrap: wrap;
   padding: 0px 56px;
   justify-content: space-between;
-  background-color: #f3f3f3;
+  background-color: #e8e8e8;
 }
 
 .feature {
@@ -218,14 +254,21 @@ header .mobile {
 
 .feature h2 {
   padding: 16px;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #4a4a4a;
 }
 
 .feature h3 {
   padding: 8px 16px 8px 16px;
-  color: #4a4a4a;
+  font-size: 1.25rem;
 }
+
+.feature p {
+  padding: 0px 16px 24px 16px;
+}
+
+/*Thesis exhibit section*/
 
 .thesis-title {
   width: 100%;
@@ -238,10 +281,16 @@ header .mobile {
   padding: 32px 0 32px 0;
 }
 
+.main-text-accompany h3 {
+  padding: 24px 0 8px 0;
+}
+
+/*Footer section*/
+
 footer {
   background-color: white;
   padding: 16px 24px 32px 24px;
-  border-top: 2px solid Gainsboro;
+  border-top: 1px solid #e8e8e8;
 }
 
 footer .content {
@@ -254,4 +303,8 @@ footer .content {
 
 .footer-links {
   margin-left: 20px;
+}
+
+.footer-links a {
+  font-weight: 300;
 }
