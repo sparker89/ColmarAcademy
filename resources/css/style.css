@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Oxygen", Arial, sans-serif;
   color: #4a4a4a;
 }
 
@@ -363,6 +363,10 @@ header .mobile {
   margin: 8px 16px;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.grey-button:hover, .grey-button:active {
+  background-color: #d8d8d8;
 }
 
 /*Desktop features section*/
